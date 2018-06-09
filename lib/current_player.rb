@@ -13,6 +13,6 @@ def current_player(board)
     moves[:player_X] += 1 if "X".include?(cell)
     moves[:player_O] += 1 if "O".include?(cell)
   end
-  
+
   moves[:player_X] == moves[:player_O] ? "X" : "O"
 end
